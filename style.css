@@ -1,7 +1,7 @@
 body {
 font-family: Arial, sans-serif;
 text-align: center;
-background-image: url('auto.jpg'); /* Utilisation d'un chemin d'accès relatif /
+background-image: url('auto1.jpg'); /* Utilisation d'un chemin d'accès relatif /
 background-size: cover;
 background-color: rgba(0, 0, 0, 0.2);
 color: #fff;

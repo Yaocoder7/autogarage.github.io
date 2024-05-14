@@ -11,6 +11,16 @@ z-index: -1; / Définition de z-index sur -1 pour afficher le fond en arrière-p
 }
 
 img {
+max-width: 50%;
+height: auto;
+position: relative;
+top: 20px;
+left: 20px;
+z-index: 1; /* Définition de z-index sur 1 pour afficher les images en avant */
+}
+
+
+img {
 max-width: 100%;
 height: auto;
 position: relative;

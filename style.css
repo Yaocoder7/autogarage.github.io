@@ -1,30 +1,33 @@
 body {
-font-family: Arial, sans-serif;
-text-align: center;
-background-image: url('auto1.jpg'); /* Utilisation d'un chemin d'accès relatif /
-background-size: cover;
-background-color: rgba(0, 0, 0, 0.2);
-color: #fff;
-padding: 20px;
-position: relative; / Ajout de la propriété position pour utiliser z-index /
-z-index: -1; / Définition de z-index sur -1 pour afficher le fond en arrière-plan */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('C:\\Users\\HP\\Desktop\\Projet code\\auto.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px;
 }
-
-img {
-max-width: 50%;
-height: auto;
-position: relative;
-top: 20px;
-left: 20px;
-z-index: 1; /* Définition de z-index sur 1 pour afficher les images en avant */
+h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
 }
-
-
-img {
-max-width: 100%;
-height: auto;
-position: relative;
-top: 20px;
-left: 20px;
-z-index: 1; /* Définition de z-index sur 1 pour afficher les images en avant */
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.info {
+  background-color: transparent;
+  padding: 0;
 }

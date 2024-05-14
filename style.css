@@ -1,17 +1,33 @@
 body {
-font-family: Arial, sans-serif;
-text-align: center;
-background-image: url('auto.jpg'); /* Utilisation d'un chemin d'accès relatif */
-background-size: cover;
-background-color: rgba(0, 0, 0, 0.2);
-color: #fff;
-padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('auto.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px;
 }
-
-img {
-max-width: 100%;
-height: auto;
-position: relative;
-top: 20px;
-left: 20px;
+h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.info {
+  background-color: transparent;
+  padding: 0;
 }

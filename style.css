@@ -8,18 +8,7 @@ body {
   padding: 20px;
 }
 
-CSS :
 
-.email span {
-background-color: #000;
-padding: 2px 5px;
-border-radius: 3px;
-}
-
-.email a {
-color: #fff;
-text-decoration: none;
-}
 
 Ce code HTML et CSS affichera l'adresse e-mail avec un fond noir et un texte blanc. Vous pouvez ajuster les valeurs de padding et border-radius pour obtenir le style souhaité.
 

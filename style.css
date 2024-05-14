@@ -7,6 +7,17 @@ body {
   color: #fff;
   padding: 20px;
 }
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  font-size: 0.4em;
+}
+
+
+
+
 h1 {
   font-size: 2.5em;
   margin-top: 0;
